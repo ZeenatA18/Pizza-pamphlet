@@ -1,0 +1,186 @@
+body {
+     font-family: arial;
+        /* font-size: 12px */
+}
+
+/* .main {
+    background-color : lightsteelblue;
+} */
+
+.header{
+    background-color: #343A40;
+    padding: 1em;
+    text-align: center;
+}
+
+.menu li {
+    list-style: none;
+}
+
+
+.menu a {
+    padding: 1em;
+    display: block;
+    width: 200px;
+}
+
+.menu a:hover {
+    background-color : lightsteelblue;
+}
+
+.head {
+    background-color: #DEE2E6;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.myname{
+    margin-right: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.headimg {
+    width: 300px;
+    height: 150px;
+}
+
+.cityContent {
+    padding: 1em;
+    background-color: #CED4DA;
+}
+
+.flex1 {
+    display: flex;
+}
+
+.image {
+    width: 300px;
+    height: 150px;
+    margin-right: 30px;
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+  }
+
+  .language{
+      padding: 1em;
+      background-color: #ADB5BD;
+  }
+
+  table{
+      border-collapse: collapse;
+      padding: 50px;
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  td , tr {
+      border: solid;
+      padding: 10px;
+  }
+
+  .historic{
+      padding: 1em;
+      background-color: #6C757D;
+  }
+
+.place{
+    text-align: center;
+}
+
+h5, h6, h6{
+    font-size: small;
+}
+
+.places{
+    width: 435px;
+}
+
+.space{
+    margin-top: 20px;
+}
+
+.placeimg {
+    width: 150px;
+    height: 200px;
+    margin-right: 12px;
+    margin-left: 10px;
+}
+
+.Wikipedia1{
+    justify-content: left;
+}
+
+.Wikipedia2{
+    justify-content: right;
+}
+
+  @media(min-width:960px){
+
+    .menu {
+        display: flex;
+    }
+
+    .places{
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width: 688px) {
+
+.body{
+        font-size: 12px;
+}
+
+.flex1{
+    flex-direction: column;
+}
+
+    .image {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+   
+.flex2{
+    display: flex;
+    flex-direction: row-reverse;
+} 
+
+.flex3{
+    display: flex;
+} 
+
+.places{
+    width: 300px;
+}
+
+.table {
+    width: 100%;
+}
+
+.head{
+    flex-direction: column;
+}
+
+.headimg{
+    width: 250px;
+}
+
+.image{
+    width: 250px;
+}
+
+
+}
+
+.footer {
+    background-color: #343A40;
+    padding: 1em;
+}
